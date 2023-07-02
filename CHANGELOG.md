@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/hagzag/poc-test/compare/v1.0.0...v1.1.0) (2023-07-02)
+
+
+### Features
+
+* update README.md ([6893f0d](https://github.com/hagzag/poc-test/commit/6893f0d4c30770ca9dc51a6e91718b8a74477ce3))
+
 # 1.0.0 (2023-07-02)
 
 
