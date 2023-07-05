@@ -1,0 +1,16 @@
+apiVersion: actions.summerwind.dev/v1alpha1
+kind: RunnerDeployment
+metadata:
+  name: github-poc-test-repo
+  namespace: actions-runner-system
+spec:
+  replicas: 1
+  template:
+    metadata: {}
+    spec:
+      dockerdContainerResources: {}
+      image: ""
+      labels:
+      - ping-runner
+      repository: hagzag/poc-test
+      resources: {}
