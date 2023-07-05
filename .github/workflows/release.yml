@@ -39,7 +39,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: run semantic-release
         run: |
-          semantic-release -r ${{ github.repository }}
+          semantic-release -r ${{ github.server_url }}/${{ github.repository }}.git
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             
