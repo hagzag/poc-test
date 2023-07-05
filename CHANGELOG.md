@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/hagzag/poc-test/compare/v1.1.0...v1.1.1) (2023-07-05)
+
+
+### Bug Fixes
+
+* simulate first release -> updating release.yml ([225d6fa](https://github.com/hagzag/poc-test/commit/225d6fa5d8ddf13015f18ff01839e222c4135ec6))
+
 # [1.1.0](https://github.com/hagzag/poc-test/compare/v1.0.0...v1.1.0) (2023-07-02)
 
 
