@@ -40,4 +40,6 @@ jobs:
       - name: run semantic-release
         run: |
           semantic-release -r ${{ github.repository }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             
