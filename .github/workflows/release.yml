@@ -34,7 +34,7 @@ jobs:
       - name: Install semantic releae dependencies
         run: |
           npm install -g semantic-release
-          npm install -g @semantic-release/git @semantic-release/github @semantic-release/commit-analyzer @semantic-release/release-notes-generator 
+          npm install -g @semantic-release/git @semantic-release/github @semantic-release/changelog @semantic-release/commit-analyzer @semantic-release/release-notes-generator 
             
       # Runs a set of commands using the runners shell
       - name: run semantic-release
